@@ -1,11 +1,11 @@
 public class Main {
     static void main() {
-        System.out.println("--Exercice 6--");
+        System.out.println("--Exercice 7--");
+        int i = 0;
 
-        for(int i=1;i<=10;i++){
-            System.out.println("i est égal à : "+i);
+        while(i<=10){
+            System.out.println("i est égal à :"+i);
+            i++;
         }
-
-
     }
 }
