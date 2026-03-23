@@ -1,14 +1,15 @@
 public class Main {
     static void main() {
-        System.out.println("--Exercice 2--");
+        System.out.println("--Exercice 3--");
 
-        String prenom = "Pierre";
-        String nom = "Dupont";
-        int annee_naissance = 2002;
-        int age = 2026 - annee_naissance;
-        String nomComplet = prenom + " " + nom;
+        int a = 3;
+        int b = 3;
 
-        System.out.println(nomComplet+" est né en "+annee_naissance+" il a donc "+age+" ans.");
-      
+        if(a==b){
+            System.out.println("a=b");
+        }
+        else{
+            System.out.println("a et b sont différents");
+        }
     }
 }
